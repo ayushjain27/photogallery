@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .col{
+        display: none;
+    }
+
+    .input{
+        width: 100% !important;
+    }
+}

@@ -10,7 +10,7 @@ const Today = () => {
             <h3 className="text-white">Today</h3>
             <span className="text-white">Monday, 05 September 2022</span>
           </div>
-          <div className="col-md-10 d-flex flex-wrap p-2 my-2">
+          <div className="col-md-10 d-flex flex-wrap justify-content-center p-2 my-2">
             <div className={`${styles.ImageBox} rounded my-2 mx-2`}>
               <img
                 className="w-100 h-100 rounded"

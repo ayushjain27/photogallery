@@ -1,0 +1,42 @@
+.navbarToggler {
+    border: none !important;
+    color: #fcf6f4 !important;
+    font-size: 30px !important;
+}
+
+.navbarToggler:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+}
+
+.navLink {
+    color: white !important;
+    font-weight: bold !important;
+    transition: 0.2s ease !important;
+}
+
+@media (max-width: 991.5px) {
+    .navItem:nth-child(1) {
+        margin-top: 0.5rem !important;
+        border-top: 1px solid #000 !important;
+    }
+
+    .buttons {
+        padding: 1rem 0;
+        border-top: 1px solid #000 !important;
+    }
+
+    .navLink {
+        width: max-content !important;
+        margin: auto !important;
+        margin-top: 1rem !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .buttons {
+        margin-left: auto !important;
+        justify-content: end !important;
+    }
+}
